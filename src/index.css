@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.admin-table {
+  margin: 40px 20px;
+}
+
+.admin-table-inner {
+  width: 100%;
+}
+
+.admin-feedback {
+  width: 600px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.admin-text {
+  margin: 20px;
+}
+
+.admin-send {
+  display: block;
+  margin: 20px 20px 0 auto;
+  width: 100px;
+  background: rgba(28,74,90, 0.9);
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.App {
+  display: flex;
+}
+.charts {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin:16px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+.personal-info {
+  text-align: left;
+  width: 25%;
+  margin:16px;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+.personal-info > div {
+  margin: 24px;
+}
+.personal-info > div > span{
+  color: blue;
+}
+.chart-graph {
+  width: 600px;
+  height: 500px;
+}
+.chart-graph > canvas {
+    width: 400px;
+    height: 400px;
+}
+.emp-details {
+  margin: 16px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.emp-details > div{
+  margin: 16px;
+}
